@@ -13,3 +13,43 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.bird{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 40vh;
+    left: 30vw;
+    z-index: 100;
+}
+.message{
+    position: absolute;
+    z-index: 10;
+    color: black;
+    top: 30%;
+    left: 50%;
+    font-size: 4em;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.messageStyle{
+    background: white;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5%;
+}
+.score{
+    position: fixed;
+    z-index: 10;
+    height: 10vh;
+    font-size: 10vh;
+    font-weight: 100;
+    color: #fff;
+    -webkit-text-stroke-width: 2px;
+    top: 0;
+    left: 0;
+    margin: 10px;
+}
+.score_val{
+    color: gold;
+    font-weight: bold;
+}
